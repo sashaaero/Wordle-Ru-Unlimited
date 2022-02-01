@@ -24,7 +24,6 @@ for (const wrapper of document.getElementsByClassName('key')) {
 
 var randomIndex = Math.floor((Math.random() * words.length));
 var target = words[randomIndex];
-console.log(`Target: ${target}`);
 var curRow = 1;
 var stack = [];
 var gameOver = false;
