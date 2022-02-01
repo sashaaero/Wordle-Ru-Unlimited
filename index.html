@@ -1,0 +1,88 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Wordle без ограничений на русском</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Wordle на русском без ограничений</h1>
+        </div>
+
+        <div class="matrix">
+            <table>
+                <tr id="row1">
+                    <td></td> <td></td> <td></td> <td></td> <td></td>
+                </tr>
+                <tr id="row2">
+                    <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+                </tr>
+                <tr id="row3">
+                    <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+                </tr>
+                <tr id="row4">
+                    <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+                </tr>
+                <tr id="row5">
+                    <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+                </tr>
+                <tr id="row6">
+                    <td> </td> <td> </td> <td> </td> <td> </td> <td> </td>
+                </tr>   
+            </table>
+        </div>
+    </div>
+
+    <div class="keyboard">
+        <div class="row">
+            <button id="Й" class="key">Й</button>
+            <button id="Ц" class="key">Ц</button>
+            <button id="У" class="key">У</button>
+            <button id="К" class="key">К</button>
+            <button id="Е" class="key">Е</button>
+            <button id="Н" class="key">Н</button>
+            <button id="Г" class="key">Г</button>
+            <button id="Ш" class="key">Ш</button>
+            <button id="Щ" class="key">Щ</button>
+            <button id="З" class="key">З</button>
+            <button id="Х" class="key">Х</button>
+            <button id="Ъ" class="key">Ъ</button>
+        </div>
+        <div class="row">
+            <button id="Ф" class="key">Ф</button>
+            <button id="Ы" class="key">Ы</button>
+            <button id="В" class="key">В</button>
+            <button id="А" class="key">А</button>
+            <button id="П" class="key">П</button>
+            <button id="Р" class="key">Р</button>
+            <button id="О" class="key">О</button>
+            <button id="Л" class="key">Л</button>
+            <button id="Д" class="key">Д</button>
+            <button id="Ж" class="key">Ж</button>
+            <button id="Э" class="key">Э</button>
+        </div>
+        <div class="row">
+            <button class="key erase">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="h-6 w-6 ml-1">
+                    <path stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        stroke-width="2" 
+                        d="M12 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2M3 12l6.414 6.414a2 2 0 001.414.586H19a2 2 0 002-2V7a2 2 0 00-2-2h-8.172a2 2 0 00-1.414.586L3 12z">
+                    </path>
+                </svg>                
+            </button>
+            <button id="Я" class="key">Я</button>
+            <button id="Ч" class="key">Ч</button>
+            <button id="С" class="key">С</button>
+            <button id="М" class="key">М</button>
+            <button id="И" class="key">И</button>
+            <button id="Т" class="key">Т</button>
+            <button id="Ь" class="key">Ь</button>
+            <button id="Б" class="key">Б</button>
+            <button id="Ю" class="key">Ю</button>
+            <button id="Я" class="key enter">ВВОД</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
