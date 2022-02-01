@@ -75,7 +75,7 @@ function enter() {
     // upgrade state
     curRow++;
     stack = [];
-    gameOver = target == curWord;
+    gameOver = target == curWord || curRow == 7;
     if (gameOver){
         alert('Игра окончена!');
     }
