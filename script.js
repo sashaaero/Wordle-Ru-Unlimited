@@ -38,6 +38,8 @@ function enter() {
     var curWord = stack.join('');
     if (!checkWord(curWord)) {
         alert(`Слово ${curWord} не найдено!`);  // erase word?
+        stack = [];
+        updateCurrentRow();
         return;
     }
     // color row
@@ -80,7 +82,7 @@ function enter() {
 }
 
 function checkWord(word) {
-    return true;
+    return words.includes(word);
 }
 
 function erase() {
