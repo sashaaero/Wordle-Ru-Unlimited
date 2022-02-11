@@ -10,13 +10,14 @@ body {
 
 .matrix {
     /*background-color: white;*/
-    width: 400;
-    margin: 0 auto; /* center alignment */
+    width: 398px;
+    margin: 0 auto 0 auto; /* center alignment */
+    table-layout: fixed;
 }
 
 .matrix td {
-    width: 80;
-    height: 80;
+    width: 71px;
+    height: 71px;
     border: solid 2px rgb(190, 190, 190);
     border-collapse: separate;
     color: rgb(190, 190, 190);
